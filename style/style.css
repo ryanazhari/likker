@@ -1,0 +1,738 @@
+header nav hr {
+  height: 0px;
+  background: transparent;
+  border: 1px solid #484c63;
+  margin: 0;
+}
+
+header nav i {
+  font-size: 16px;
+  margin-right: 4px;
+  color: #FE4873;
+}
+
+header .header-content .slogan p, header .header-content .slogan .action-menu a, section.about .row a, section.contact .box-input button, section.portfolio .box-card .card .card-content p, section.features .card p, section.about .row p, section.program p, section.program .row p, section.contact p, section.footer .col p, section.portfolio .box-card .card .card-content .card-tools a, section.portfolio a.show-more, section.contact .box-input input, section.contact .box-input textarea, header nav .box-menu-top li, header .header-content .slogan .action-menu, section.portfolio .box-card .tabs a, section.footer .col li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+section.features .card a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+header nav ul li a, header .sidenav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+section.portfolio h2, section.partnership h2, section.features h2, section.about h2, section.program h2, section.social h2, section.contact h2, section.portfolio .box-card .card .card-content .card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+header .header-content .slogan h1, section.about .row h3, section.program .row h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+header .header-content .slogan h1 {
+  font-size: 42px;
+  line-height: 62px;
+  color: #FFF;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+header .header-content .slogan p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #CBCCD0;
+}
+
+header .header-content .slogan .action-menu a, section.about .row a, section.contact .box-input button {
+  background-color: #FE4873;
+  color: #FFF;
+  padding: 16px 24px;
+  border-radius: 6px;
+}
+
+header .header-content .slogan .action-menu a:hover, section.about .row a:hover, section.contact .box-input button:hover {
+  background-color: #EC2655;
+}
+
+header .header-content .slogan .action-menu span {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 50%;
+  background-color: #FE4873;
+  color: #FFF;
+}
+
+section.portfolio h2, section.partnership h2, section.features h2, section.about h2, section.program h2, section.social h2, section.contact h2 {
+  font-size: 22px;
+  text-align: center;
+  color: #FFF;
+}
+
+section.portfolio .box-card .card .card-content .card-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFF;
+}
+
+section.portfolio .box-card .card .card-content p, section.features .card p, section.about .row p, section.program p, section.program .row p, section.contact p, section.footer .col p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #CBCCD0;
+}
+
+section.portfolio .box-card .card .card-content .card-tools a {
+  background-color: #FE4873;
+  color: #FFF;
+  font-size: 12px;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+
+section.portfolio a.show-more {
+  padding: 10px 20px;
+  border: 1px solid #FE4873;
+  color: #FE4873;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+section.about .row h3 {
+  font-size: 36px;
+  line-height: 50px;
+  color: #FFF;
+  margin: 0;
+}
+
+section.program .row h4 {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFF;
+}
+
+section.social .row span {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgba(254, 72, 115, 0.08);
+  text-align: center;
+  line-height: 42px;
+  color: #FE4873;
+  font-size: 20px;
+  display: block;
+}
+
+section.contact .box-input input {
+  padding: 12px 24px 12px 0;
+  border-bottom: 1px solid #484C63;
+  color: #CBCCD0;
+  font-size: 16px;
+}
+
+section.contact .box-input textarea {
+  padding: 12px 24px 12px 0;
+  border-bottom: 1px solid #484C63;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  resize: none;
+  color: #CBCCD0;
+  font-size: 16px;
+}
+
+body {
+  background-color: #333645;
+}
+
+header nav {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: block;
+}
+
+header nav .box-menu-top li {
+  float: left;
+  list-style-type: none;
+  margin-bottom: 0;
+  font-size: 12px;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+header nav .box-menu-top li:hover i {
+  color: #FFF;
+}
+
+header nav .box-menu-top li:nth-child(1) {
+  margin-right: 32px;
+}
+
+header nav i {
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+header nav ul li a {
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+header nav ul li a.active {
+  border-bottom: 1px solid #FE4873;
+}
+
+header .sidenav {
+  background-color: #373B4B !important;
+  font-size: 14;
+  padding-top: 42px;
+}
+
+header .sidenav li a {
+  color: #FE4873;
+}
+
+header .sidenav li a.active {
+  background-color: rgba(254, 72, 115, 0.08);
+}
+
+header .header-content {
+  padding-top: 100px;
+  position: relative;
+}
+
+header .header-content img {
+  width: 50%;
+  float: right;
+}
+
+header .header-content .slogan {
+  position: absolute;
+}
+
+header .header-content .slogan .container {
+  margin: 0;
+}
+
+header .header-content .slogan p {
+  max-width: 500px;
+}
+
+header .header-content .slogan .action-menu {
+  padding-top: 24px;
+  color: #FFF;
+}
+
+header .header-content .slogan .action-menu a {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header .header-content .slogan .action-menu span {
+  margin-right: 10px;
+  margin-left: 42px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header .header-content .slogan .action-menu span:hover {
+  background-color: #EC2655;
+  cursor: pointer;
+}
+
+section.portfolio {
+  margin-top: 500px;
+  display: block;
+}
+
+section.portfolio h2 {
+  margin-bottom: 20px;
+}
+
+section.portfolio .box-card .tabs {
+  background-color: transparent;
+  margin-bottom: 42px;
+}
+
+section.portfolio .box-card .tabs a {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #A0A1A7;
+}
+
+section.portfolio .box-card .tabs a.active {
+  color: #FE4873;
+  background-color: rgba(254, 72, 115, 0.08);
+}
+
+section.portfolio .box-card .card {
+  background-color: #373B4B;
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+section.portfolio .box-card .card .card-image {
+  height: 190px;
+  background-color: rgba(254, 72, 115, 0.08);
+}
+
+section.portfolio .box-card .card .card-content .card-tools {
+  margin-top: 16px;
+}
+
+section.portfolio a.show-more {
+  margin-top: 72px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+section.portfolio a.show-more:hover {
+  background-color: #EC2655;
+  color: #FFF;
+  border: none;
+}
+
+section.partnership {
+  margin-top: 140px;
+}
+
+section.partnership h2 {
+  margin-bottom: 40px;
+}
+
+section.partnership .box-brand {
+  padding: 72px 0;
+  width: 100%;
+  background-color: #373B4B;
+}
+
+section.partnership .box-brand .row {
+  margin: 0;
+}
+
+section.partnership .box-brand img {
+  max-width: 100%;
+}
+
+section.features {
+  margin-top: 140px;
+}
+
+section.features .card {
+  background-color: transparent;
+  border: 1px solid #484C63;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 12px 0 6px 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+section.features .card span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(254, 72, 115, 0.08);
+  text-align: center;
+  margin: auto;
+}
+
+section.features .card span i {
+  font-size: 50px;
+  color: #FE4873;
+  line-height: 100px;
+}
+
+section.features .card a {
+  padding: 10px 14px;
+  border-radius: 4px;
+  border: 1px solid #484C63;
+  color: #FFF;
+  margin: 42px 0 16px 0;
+  display: inline-block;
+}
+
+section.features .card:hover {
+  background-color: #FE4873;
+  border: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+section.features .card:hover span {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+section.features .card:hover span i {
+  color: #FFF;
+}
+
+section.features .card:hover a {
+  border: 1px solid #FFF;
+}
+
+section.features .card:hover p {
+  color: #f0f0f0;
+}
+
+section.about {
+  margin-top: 140px;
+}
+
+section.about h2 {
+  margin-bottom: 40px;
+}
+
+section.about img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+section.about .row p {
+  margin-top: 0;
+}
+
+section.about .row a {
+  margin-top: 8px;
+  display: inline-block;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+section.program {
+  margin-top: 140px;
+}
+
+section.program p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section.program .row .box-image {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(254, 72, 115, 0.08);
+  border-radius: 6px;
+}
+
+section.program .row .box-image img {
+  max-width: 70%;
+  margin: auto;
+}
+
+section.social {
+  margin-top: 140px;
+}
+
+section.social h2 {
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+section.social .box-image img {
+  width: 100%;
+}
+
+section.social .row {
+  margin-top: 32px;
+}
+
+section.social .row span {
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+section.social .row span:hover {
+  background-color: #FE4873;
+  color: #FFF;
+}
+
+section.contact {
+  margin-top: 140px;
+}
+
+section.contact p {
+  text-align: center;
+}
+
+section.contact .box-input {
+  width: 600px;
+  margin: auto;
+}
+
+section.contact .box-input textarea {
+  height: 100px;
+}
+
+section.contact .box-input button {
+  border: none;
+  float: right;
+  margin-top: 32px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+section.contact .box-input button:hover {
+  cursor: pointer;
+}
+
+section.icon-footer {
+  margin-top: 200px;
+}
+
+section.icon-footer img {
+  width: 100px;
+}
+
+section.footer {
+  margin-top: 80px;
+}
+
+section.footer .col li {
+  font-size: 14px;
+  line-height: 26px;
+  color: #CBCCD0;
+}
+
+section.footer .col li:first-child {
+  font-size: 18px;
+  color: #FFF;
+  margin-bottom: 12px;
+}
+
+section.footer .col hr {
+  background: transparent;
+  border: 1px solid #484c63;
+  margin: 32px 0 0 0;
+}
+
+section.footer .col p {
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  header .header-content .slogan h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  header .header-content .slogan p, section.about .row p, section.about .row a, section.program p, section.program .row p, section.contact p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  header .header-content .slogan .action-menu a, section.contact .box-input button {
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  header .header-content .slogan .action-menu span {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 10px;
+  }
+  section.portfolio h2, section.partnership h2, section.features h2, section.about h2, section.program h2, section.social h2, section.contact h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  section.portfolio .box-card .card .card-content .card-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  section.portfolio .box-card .card .card-content .card-tools a {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-right: 2px;
+  }
+  section.portfolio a.show-more {
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  section.about .row h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  section.program .row h4 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px 0 0 0;
+  }
+  section.social .row span {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgba(254, 72, 115, 0.08);
+    text-align: center;
+    line-height: 42px;
+    color: #FE4873;
+    font-size: 20px;
+    display: block;
+  }
+  section.contact .box-input input {
+    padding: 6px 12px 6px 0;
+    border-bottom: 1px solid #484C63;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #CBCCD0;
+    font-size: 12px;
+  }
+  section.contact .box-input textarea {
+    padding: 6px 24px 6px 0;
+    border-bottom: 1px solid #484C63;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #CBCCD0;
+    font-size: 12px;
+  }
+  header .header-content {
+    padding-top: 72px;
+  }
+  header .header-content img {
+    width: 80%;
+    display: none;
+  }
+  header .header-content .slogan {
+    position: absolute;
+  }
+  header .header-content .slogan .container {
+    margin: 0;
+  }
+  header .header-content .slogan h1 {
+    margin-bottom: 16px;
+  }
+  header .header-content .slogan p {
+    max-width: 280px;
+  }
+  header .header-content .slogan .action-menu {
+    padding-top: 16px;
+    font-size: 12px;
+    color: #FFF;
+  }
+  header .header-content .slogan .action-menu span {
+    margin-right: 4px;
+    margin-left: 14px;
+  }
+  section.portfolio {
+    margin-top: 400px;
+    display: block;
+  }
+  section.portfolio {
+    margin-top: 400px;
+  }
+  section.portfolio h2 {
+    margin-bottom: 20px;
+  }
+  section.portfolio .box-card .tabs {
+    background-color: transparent;
+    margin-bottom: 24px;
+  }
+  section.portfolio .box-card .card .card-image {
+    height: 160px;
+    background-color: rgba(254, 72, 115, 0.08);
+  }
+  section.portfolio a.show-more {
+    margin-top: 0;
+  }
+  section.partnership {
+    margin-top: 90px;
+  }
+  section.partnership h2 {
+    margin-bottom: 24px;
+  }
+  section.partnership .box-brand {
+    padding: 42px 0;
+  }
+  section.features {
+    margin-top: 90px;
+  }
+  section.features h2 {
+    margin-bottom: 40px;
+  }
+  section.about {
+    margin-top: 90px;
+  }
+  section.about h2 {
+    margin-bottom: 24px;
+  }
+  section.about .row {
+    text-align: center;
+  }
+  section.about .row h3 {
+    margin: 12px;
+  }
+  section.program {
+    margin-top: 90px;
+  }
+  section.program p {
+    margin-bottom: 24px;
+  }
+  section.program .row .col {
+    margin-bottom: 32px;
+  }
+  section.program .row p {
+    margin: 0;
+  }
+  section.social {
+    margin-top: 90px;
+  }
+  section.social h2 {
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+  section.social .row {
+    margin-top: 10px;
+  }
+  section.social .row .col {
+    margin-bottom: 20px;
+  }
+  section.contact {
+    margin-top: 90px;
+  }
+  section.contact p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+  section.contact .box-input {
+    width: 100%;
+  }
+  section.contact .box-input textarea {
+    height: 80px;
+  }
+  section.contact .box-input button {
+    margin-top: 24px;
+  }
+  section.icon-footer {
+    margin-top: 160px;
+  }
+  section.icon-footer img {
+    width: 60px;
+  }
+  section.footer {
+    margin-top: 0;
+  }
+  section.footer hr {
+    margin: 24px 0 0 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
