@@ -272,7 +272,7 @@ header {
     }
     
     .sidenav {
-        background-color: $bg-color-secondary !important;
+        background-color: $bg-color-secondary;
         @extend %poppins-light;
         font-size: 14;
         padding-top: 42px;
@@ -281,7 +281,7 @@ header {
              color: $red-color-primary
          }
     
-         li a.active {
+         li.active {
             background-color: $bg-color-secondary;
         }
     }
@@ -382,6 +382,15 @@ section.portfolio {
             .card-image {
                 height: 190px;
                 background-color: $red-color-transparent;
+                a {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    transition: .3s ease-in-out;
+                }
+                a:hover {
+                    background-color: rgba(0,0,0,.2);
+                }
             }
 
             .card-content {

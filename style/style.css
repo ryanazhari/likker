@@ -232,7 +232,7 @@ header nav ul li a.active {
 }
 
 header .sidenav {
-  background-color: #373B4B !important;
+  background-color: #373B4B;
   font-size: 14;
   padding-top: 42px;
 }
@@ -241,7 +241,7 @@ header .sidenav li a {
   color: #FE4873;
 }
 
-header .sidenav li a.active {
+header .sidenav li.active {
   background-color: #373B4B;
 }
 
@@ -325,6 +325,18 @@ section.portfolio .box-card .card {
 section.portfolio .box-card .card .card-image {
   height: 190px;
   background-color: rgba(254, 72, 115, 0.08);
+}
+
+section.portfolio .box-card .card .card-image a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+section.portfolio .box-card .card .card-image a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 section.portfolio .box-card .card .card-content .card-tools {

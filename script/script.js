@@ -7,8 +7,8 @@ const tabs = $('.tabs');
 M.Tabs.init(tabs);
 
 
-$('.sidenav li a').on('click', function() {
-    $('.sidenav li a').removeClass('active');
+$('.sidenav li').on('click', function() {
+    $('.sidenav li').removeClass('active');
     $(this).addClass('active');
     // console.log('ter click');
 });
