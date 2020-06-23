@@ -23,6 +23,7 @@ $(window).on('load', function() {
 // Landing Element
 $(window).scroll(function() {
     let hScroll = $(this).scrollTop();
+    console.log(hScroll);
 
     if ( $(window).width() <= 326 ){
         var portfolio = 200;
@@ -31,11 +32,11 @@ $(window).scroll(function() {
         var about = 3800;
         var program = 4400;
     } else if ( $(window).width() > 326 && $(window).width() <= 760 ){
-        var portfolio = 200;
-        var brand = 1200;
-        var features = 1400;
-        var about = 3400;
-        var program = 4000;
+        var portfolio = 150;
+        var brand = 1400;
+        var features = 1700;
+        var about = 3900;
+        var program = 4400;
     } else if ( $(window).width() > 760 && $(window).width() <= 991) {
         var portfolio = 140;
         var brand = 750;

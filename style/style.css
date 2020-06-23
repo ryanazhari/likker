@@ -242,7 +242,7 @@ header .sidenav li a {
 }
 
 header .sidenav li a.active {
-  background-color: rgba(254, 72, 115, 0.08);
+  background-color: #373B4B;
 }
 
 header .header-content {
