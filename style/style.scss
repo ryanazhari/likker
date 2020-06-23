@@ -193,6 +193,36 @@ $text-color-dark : #A0A1A7;
     font-size: 16px;
 }
 
+%hidden-parallax-left-to-right {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(-24px, 0);
+}
+
+
+%hidden-parallax-right-to-left {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(24px, 0);
+}
+
+%hidden-parallax-top-to-bottom {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(0, -24px);
+}
+
+%hidden-parallax-bottom-to-top {
+    opacity: 0;
+    transition: 1.5s;
+    transform: translate(0, 24px);
+}
+
+.show-parallax {
+    opacity: 1 !important;
+    transform: translate(0,0) !important;
+}
+
 body {
     background-color: $bg-color-primary;
 }
@@ -264,10 +294,12 @@ header {
         img {
             width: 50%;
             float: right;
+            @extend %hidden-parallax-left-to-right;
         }
 
         .slogan {
             position: absolute;
+            @extend %hidden-parallax-right-to-left;
 
             .container {
                 margin: 0;
@@ -341,7 +373,7 @@ section.portfolio {
         }
 
         .card {
-
+            @extend %hidden-parallax-top-to-bottom;
             background-color: $bg-color-secondary;
             border-radius: 6px;
             overflow: hidden;
@@ -398,10 +430,15 @@ section.partnership {
 
         .row {
             margin: 0;
+            // .col {
+            //     margin: 0;
+            // }
         }
 
         img {
             max-width: 100%;
+            margin: auto;
+            @extend %hidden-parallax-bottom-to-top;
         }        
 
     }
@@ -415,6 +452,7 @@ section.features {
         @extend %h2;
     }
     .card {
+        @extend %hidden-parallax-top-to-bottom;
         background-color: transparent;
         border: 1px solid #484C63;
         border-radius: 6px;
@@ -485,10 +523,12 @@ section.about {
     img {
         max-width: 100%;
         border-radius: 6px;
+        @extend %hidden-parallax-left-to-right;
     }
     .row {
         h3 {
             @extend %h3-about;
+            @extend %hidden-parallax-right-to-left;
         }
         p {
             @extend %p-card;
@@ -522,6 +562,7 @@ section.program {
     .row {
 
         .box-image {
+            @extend %hidden-parallax-top-to-bottom;
             margin: auto;
             width: 100px;
             height: 100px;

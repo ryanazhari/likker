@@ -151,6 +151,44 @@ section.contact .box-input textarea {
   font-size: 16px;
 }
 
+header .header-content img, section.about img {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(-24px, 0);
+          transform: translate(-24px, 0);
+}
+
+header .header-content .slogan, section.about .row h3 {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(24px, 0);
+          transform: translate(24px, 0);
+}
+
+section.portfolio .box-card .card, section.features .card, section.program .row .box-image {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(0, -24px);
+          transform: translate(0, -24px);
+}
+
+section.partnership .box-brand img {
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  -webkit-transform: translate(0, 24px);
+          transform: translate(0, 24px);
+}
+
+.show-parallax {
+  opacity: 1 !important;
+  -webkit-transform: translate(0, 0) !important;
+          transform: translate(0, 0) !important;
+}
+
 body {
   background-color: #333645;
 }
@@ -325,6 +363,7 @@ section.partnership .box-brand .row {
 
 section.partnership .box-brand img {
   max-width: 100%;
+  margin: auto;
 }
 
 section.features {
